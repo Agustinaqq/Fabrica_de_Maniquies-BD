@@ -1,6 +1,7 @@
-# Gestión de Fábrica de Maniquíes
+# Gestión de Base de Datos de Fábrica de Maniquíes
 
 Este repositorio contiene el sistema de base de datos para la gestión de piezas, materiales y ensamblaje de maniquíes. El proyecto incluye la definición de la estructura (DDL) y la carga inicial de datos (DML).
+Luego se agrega la arquitectura y desarrollo de la aplicación.
 
 ## Estructura del Proyecto
 
@@ -35,7 +36,7 @@ Se incluyeron componentes para mejorar la performance y automatización del sist
 
 El sistema fue escalado hacia una arquitectura full-stack desacoplada, separando la lógica del servidor de la interfaz de usuario para lograr un sistema robusto, modular y de alto rendimiento.
 
-### ⚙️ Backend (API REST con Express)
+###  Backend (API REST con Express)
 Se desarrolló un servidor web utilizando **Node.js** y **Express** que actúa como una API REST pura, conectada de forma segura a la base de datos MySQL a través de un pool de conexiones optimizado (`mysql2/promise`).
 
 * **Middlewares Clave:**
