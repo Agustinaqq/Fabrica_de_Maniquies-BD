@@ -1,0 +1,27 @@
+{
+  "name": "fabrica_de_maniquies-bd",
+  "version": "1.0.0",
+  "description": "Este repositorio contiene el sistema de base de datos para la gestión de piezas, materiales y ensamblaje de maniquíes. El proyecto incluye la definición de la estructura (DDL) y la carga inicial de datos (DML).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agustinaqq/Fabrica_de_Maniquies-BD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Agustinaqq/Fabrica_de_Maniquies-BD/issues"
+  },
+  "homepage": "https://github.com/Agustinaqq/Fabrica_de_Maniquies-BD#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mysql2": "^3.22.3"
+  }
+}
