@@ -60,3 +60,9 @@ La interfaz de usuario fue migrada a **React** utilizando **Vite** como empaquet
 1. **React (`useEffect`)** realiza un llamado asíncrono con `fetch()` hacia el puerto del servidor.
 2. El backend en **Express** recibe la petición, ejecuta la consulta estructurada en **MySQL** y retorna la estructura en formato JSON.
 3. **React** procesa el JSON, actualiza su estado interno y **renderiza la UI** sin necesidad de recargar la página.
+
+### Tecnologías Utilizadas
+
+**Backend**: Node.js, Express.js, Cors, Dotenv.
+
+**Frontend**: React.js, Vite.js, JavaScript.
