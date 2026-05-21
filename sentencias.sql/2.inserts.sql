@@ -1,6 +1,5 @@
 USE fabrica_maniquies;
 
--- 1. INSERCIÓN DE CATÁLOGOS
 INSERT INTO tipos_pieza (id_tipo, nombre) VALUES 
 (1, 'Cabeza'), (2, 'Torso'), (3, 'Brazo Izquierdo'), (4, 'Brazo Derecho'), 
 (5, 'Pierna Izquierda'), (6, 'Pierna Derecha'), (7, 'Base');
@@ -11,12 +10,10 @@ INSERT INTO materiales (id_material, nombre) VALUES
 INSERT INTO colores (id_color, nombre) VALUES 
 (1, 'Blanco Mate'), (2, 'Negro Mate'), (3, 'Piel Claro'), (4, 'Gris Metalizado');
 
--- 2. INSERCIÓN DE MANIQUÍES
 INSERT INTO maniquies (id_maniqui, nombre_modelo) VALUES 
 (1, 'Modelo Slim A1'), (2, 'Modelo Muscular M2'), (3, 'Modelo Infantil K3'), 
 (4, 'Modelo Vintage W4'), (5, 'Modelo Sastre S5');
 
--- 3. CARGA DE 40 PIEZAS
 INSERT INTO piezas (tipo_pieza_id, material_id, color_id, id_maniqui, talle, fecha_fabricacion) VALUES 
 -- Maniquí 1
 (1,1,1,1,'Pequeño','2026-04-10'),(2,1,1,1,'Mediano','2026-04-10'),(3,1,1,1,'Mediano','2026-04-11'),(4,1,1,1,'Mediano','2026-04-11'),(5,1,1,1,'Mediano','2026-04-12'),(6,1,1,1,'Mediano','2026-04-12'),(7,1,1,1,'N/A','2026-04-13'),(1,1,1,1,'Pequeño','2026-04-14'),
